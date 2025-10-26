@@ -16,27 +16,6 @@ Input a list (txt) of Chinese characters, detect the first [IDC](https://en.wiki
 
 Obviously, this software is preliminary. For example, the 撒 is classified as a left-to-right structure because its sequence in IDS.txt is `U+6492 撒 ^⿰扌散$(GHTJKP)`, but in fact it might be classified as a left-to-middle-and-right structure more appropriately.
 
-| IDC  | **结构描述** |
-| ---- | ------------ |
-| ⿰   | 左右结构     |
-| ⿱   | 上下结构     |
-| ⿲   | 左中右结构   |
-| ⿳   | 上中下结构   |
-| ⿴   | 全包围结构   |
-| ⿵   | 上包围结构   |
-| ⿶   | 下包围结构   |
-| ⿷   | 左包围结构   |
-| ⿸   | 左上包围结构 |
-| ⿹   | 右上包围结构 |
-| ⿺   | 左下包围结构 |
-| ⿻   | 嵌套结构     |
-| ⿼   | 右包围结构   |
-| ⿽   | 右下包围结构 |
-| ⿾   | 水平翻转     |
-| ⿿   | 颠倒旋转     |
-| 〾   | 形似字符     |
-| ㇯   | 减去笔画     |
-
 ### 下载<br>Download
 
 在[Releases](https://github.com/Fisher4124/Hanzi-IDC-Sort/releases)页面下载` Hanzi-IDC-Sort.exe`（或[百度网盘](https://pan.baidu.com/s/1qsCvp0IlN3-JCReMhYYlog)）。
