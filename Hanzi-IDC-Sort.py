@@ -40,17 +40,37 @@ while True:
             line = line.strip()
             if not line or line.startswith("#"):
                 continue
-            # 检测对应汉字
-            parts = line.split()
+
+            parts = line.split("\t", 1)
             if len(parts) < 2:
                 continue
-            char = parts[1]
 
-            # 找到第一个IDC
-            for ch in line:
-                if ch in IDC_SET:
-                    char_to_idc[char] = ch
+            char, ids_expr = parts[0], parts[1]
+
+            segments = ids_expr.split(";")
+
+            found_idcs = []
+
+            for seg in segments:
+                for ch in seg:
+                    if ch in IDC_SET:
+                        found_idcs.append(ch)
+                        break  
+            if not found_idcs:
+                continue
+
+            # === 优先级判断 ===
+            final_idc = found_idcs[0]
+            for idc in found_idcs:
+                if idc == "⿲":
+                    final_idc = idc
                     break
+                elif idc == "⿳" and final_idc != "⿲":
+                    final_idc = idc
+
+            char_to_idc[char] = final_idc
+
+
 
     # === 读取Hanzi.txt ===
     structure_dict = defaultdict(list)
