@@ -26,7 +26,7 @@ Download `Hanzi-IDC-Sort.exe` from the [Releases](https://github.com/Fisher4124/
 
 <span style="border:1px solid black; padding:2px 4px; display:inline-block;">[魏安](https://www.babelstone.co.uk/)</span>所提供的[IDS.txt](https://www.babelstone.co.uk/CJK/IDS.HTML)。
 
-[IDS.txt](https://www.babelstone.co.uk/CJK/IDS.HTML) by †[Andrew West]([BabelStone](https://www.babelstone.co.uk/)).
+[IDS.txt](https://www.babelstone.co.uk/CJK/IDS.HTML) by †[Andrew West](https://www.babelstone.co.uk/).
 
 
 
