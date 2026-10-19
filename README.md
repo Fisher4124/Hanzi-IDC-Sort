@@ -18,9 +18,9 @@ In sorting, ⿲/⿳ takes precedence over ⿰/⿱ in sequences like `搿 ⿰龵�
 
 ### 下载<br>Download
 
-在[Releases](https://github.com/Fisher4124/Hanzi-IDC-Sort/releases)页面下载`Hanzi-IDC-Sort.exe`（或[百度网盘](https://pan.baidu.com/s/11NToCQO79YeWIPNwfjWkXw)）。
+在[Releases](https://github.com/Fisher4124/Hanzi-IDC-Sort/releases)页面下载`Hanzi-IDC-Sort.py`（Python脚本）。
 
-Download `Hanzi-IDC-Sort.exe` from the [Releases](https://github.com/Fisher4124/Hanzi-IDC-Sort/releases) page.
+Download `Hanzi-IDC-Sort.py` from the [Releases](https://github.com/Fisher4124/Hanzi-IDC-Sort/releases) page.
 
 ### 结构数据<br>IDS.txt
 
